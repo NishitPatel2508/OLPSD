@@ -1,0 +1,104 @@
+.bg {
+    margin: 0 !important;
+    right: 0;
+    bottom: 0;
+    background-color: var(--neutral-light-white);
+    border: 1px solid var(--grey-shade-05);
+    box-sizing: border-box;
+}
+
+.bg,
+.bg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.color {
+    background-color: var(--grey-shade-04);
+}
+
+.bgParent,
+.color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iconOutlinedAdd {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.courseOverview {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.courseOverviewWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-11xs);
+    box-sizing: border-box;
+    min-width: 515px;
+    max-width: 100%;
+}
+
+.iconOutlinedAddParent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+}
+
+.courseContentBarClosed,
+.sections15 {
+    display: flex;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.sections15 {
+    width: 240px;
+    font-size: var(--text-medium-14-pt-size);
+    letter-spacing: 0.01em;
+    line-height: 23px;
+    text-align: right;
+    align-items: center;
+    z-index: 1;
+}
+
+.courseContentBarClosed {
+    width: 1136px;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-5xl) var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+    /* debug_commit: 1de1738; */
+    z-index: 2;
+    text-align: left;
+    font-size: var(--text-regular-16-pt-size);
+    color: var(--grey-shade-02);
+    font-family: var(--text-medium-14-pt);
+}

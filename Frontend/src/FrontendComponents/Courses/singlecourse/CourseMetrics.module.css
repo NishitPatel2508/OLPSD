@@ -1,0 +1,169 @@
+.bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--grey-shade-06);
+}
+
+.div,
+.hoursOfCourse {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.hoursOfCourse {
+    font-size: var(--text-regular-16-pt-size);
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--grey-shade-01);
+}
+
+.courseMetrics1 {
+    width: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-7xs);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+    z-index: 1;
+}
+
+.div1,
+.totalAssignments {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.totalAssignments {
+    font-size: var(--text-regular-16-pt-size);
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--grey-shade-01);
+}
+
+.courseMetrics2 {
+    width: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-7xs);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+    z-index: 1;
+}
+
+.div2,
+.videoLessons {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.videoLessons {
+    font-size: var(--text-regular-16-pt-size);
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--grey-shade-01);
+}
+
+.courseMetrics3 {
+    width: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-7xs);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+    z-index: 1;
+}
+
+.div3,
+.studentsEnrolled {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.studentsEnrolled {
+    font-size: var(--text-regular-16-pt-size);
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--grey-shade-01);
+}
+
+.courseMetrics,
+.courseMetrics4 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.courseMetrics4 {
+    width: 272px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-7xs);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+    z-index: 1;
+}
+
+.courseMetrics {
+    align-self: stretch;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-25xl) var(--padding-xl);
+    position: relative;
+    gap: var(--gap-base);
+    text-align: center;
+    font-size: var(--heading-h1-size);
+    color: var(--secondary-yellow);
+    font-family: var(--text-medium-14-pt);
+}
+
+@media screen and (max-width: 1225px) {
+    .courseMetrics {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .div,
+    .div1,
+    .div2,
+    .div3 {
+        font-size: var(--heading-h2-size);
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .div,
+    .div1,
+    .div2,
+    .div3 {
+        font-size: var(--font-size-5xl);
+        line-height: 34px;
+    }
+}

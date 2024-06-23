@@ -1,0 +1,313 @@
+.bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0.1px;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-11xs);
+    background-color: var(--primary-azure-blue-shade-01);
+}
+
+.mostSubscribed {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 140%;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 103.5px;
+    z-index: 1;
+}
+
+.tag {
+    width: 116.1px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) var(--padding-7xs) var(--padding-9xs) var(--padding-6xs-3);
+    box-sizing: border-box;
+    position: relative;
+    white-space: nowrap;
+}
+
+.courseName,
+.subText {
+    align-self: stretch;
+    position: relative;
+}
+
+.subText {
+    margin: 0;
+    font-size: inherit;
+    line-height: 140%;
+    font-weight: 600;
+    font-family: var(--heading-h2);
+}
+
+.courseName {
+    font-size: var(--text-regular-16-pt-size);
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    font-weight: 500;
+    color: var(--grey-shade-05);
+}
+
+.iconFilledStar {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+}
+
+.b {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 24px;
+}
+
+.reviews1 {
+    text-decoration: underline;
+}
+
+.reviews {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 23px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 119px;
+}
+
+.reviewsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs) 0 0;
+    text-align: center;
+}
+
+.frameChild {
+    width: 4px;
+    height: 4px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--grey-shade-06);
+}
+
+.highlightsInner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-7xs) 0 0;
+}
+
+.joeNatoli,
+.publishedBy {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 93.4px;
+}
+
+.joeNatoli {
+    text-decoration: underline;
+    font-weight: 500;
+    min-width: 73.1px;
+}
+
+.bound {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.color {
+    background-color: var(--semantic-success);
+}
+
+.boundParent,
+.color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iconFilledCheck {
+    height: 24px;
+    width: 24.4px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.highlights,
+.publishedByParent,
+.subTextParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.publishedByParent {
+    flex-direction: row;
+    gap: var(--gap-9xs);
+}
+
+.highlights,
+.subTextParent {
+    max-width: 100%;
+}
+
+.highlights {
+    overflow: hidden;
+    flex-direction: row;
+    gap: var(--gap-9xs);
+    font-size: var(--text-medium-14-pt-size);
+}
+
+.subTextParent {
+    align-self: stretch;
+    flex-direction: column;
+    padding: 0 0 var(--padding-base);
+    box-sizing: border-box;
+    gap: var(--gap-xs);
+    text-align: left;
+    font-size: var(--heading-h2-size);
+}
+
+.bottunOutlinedWithIcon {
+    align-self: stretch;
+    width: 123px;
+}
+
+.bg1 {
+    height: 40px;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-9xs);
+    background-color: var(--primary-hot-pink-base);
+}
+
+.buttonBg,
+.buyNow {
+    position: absolute;
+    display: flex;
+}
+
+.buttonBg {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.buyNow {
+    height: calc(100% - 10.9px);
+    width: calc(100% - 10px);
+    top: 5px;
+    left: 5px;
+    font-size: var(--font-size-mid);
+    letter-spacing: 0.01em;
+    line-height: 29.1px;
+    font-weight: 600;
+    font-family: var(--text-medium-14-pt);
+    color: var(--neutral-light-white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.bottonFilled {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 40px;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.bottunOutlinedWithIconParent {
+    width: 315px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.dotsIcon {
+    width: 80px;
+    height: 176px;
+    position: absolute;
+    margin: 0 !important;
+    top: -55px;
+    left: -55px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.headerText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-xs);
+    min-width: 426px;
+    max-width: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--text-medium-12-pt-size);
+    color: var(--neutral-light-white);
+    font-family: var(--text-medium-14-pt);
+}
+
+@media screen and (max-width: 1050px) {
+    .headerText {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .subText {
+        font-size: var(--font-size-7xl);
+        line-height: 36px;
+    }
+
+    .highlights {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .subText {
+        font-size: var(--font-size-lgi);
+        line-height: 27px;
+    }
+}

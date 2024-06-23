@@ -1,0 +1,116 @@
+.imageIcon {
+    margin: 0 !important;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--br-5xs);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.bg,
+.imageIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.color {
+    background-color: var(--neutral-light-white);
+}
+
+.bgParent,
+.color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iconFilledVideo {
+    height: 56px;
+    width: 56px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.watchDemo {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.01em;
+    line-height: 39px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.dotsIcon,
+.play {
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.play {
+    width: 233px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.dotsIcon {
+    height: 80px;
+    width: 344px;
+    position: absolute;
+    margin: 0 !important;
+    right: -55px;
+    bottom: -55px;
+    z-index: 2;
+}
+
+.video {
+    width: 464px;
+    box-shadow: 0 32px 48px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-99xl) var(--padding-xl) var(--padding-99xl) var(--padding-2xl);
+    box-sizing: border-box;
+    position: relative;
+    min-width: 464px;
+    max-width: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--neutral-light-white);
+    font-family: var(--text-medium-14-pt);
+}
+
+@media screen and (max-width: 1225px) {
+    .video {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .video {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .watchDemo {
+        font-size: var(--font-size-lgi);
+        line-height: 31px;
+    }
+}

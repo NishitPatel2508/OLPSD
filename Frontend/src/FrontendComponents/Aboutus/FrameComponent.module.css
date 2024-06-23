@@ -1,0 +1,600 @@
+.ourBenefits {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 100%;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.valueComparator {
+    width: 769px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.byJoiningWeekens {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-29xl);
+    line-height: 58px;
+    font-weight: 600;
+    font-family: inherit;
+    color: var(--color-gray-300);
+}
+
+.formulaSolver,
+.valueComparatorParent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.valueComparatorParent {
+    width: 804px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+}
+
+.formulaSolver {
+    width: 1124px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+}
+
+.installOurTopRated {
+    width: 572px;
+    position: relative;
+    line-height: 26px;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+}
+
+.inputProcessor {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-3xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--text-md-normal-size);
+    color: var(--color-gray-100);
+}
+
+.patternMatcher {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen-300);
+    width: 100%;
+    height: 100%;
+}
+
+.div {
+    position: absolute;
+    top: -1px;
+    left: 3px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.cardNumber {
+    width: 54px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.standardization {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--color-gray-300);
+}
+
+.readMore {
+    font-weight: 500;
+    color: var(--color-mediumseagreen-200);
+}
+
+.whenWorkingInContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-md-normal-size);
+    line-height: 26px;
+    color: var(--color-gray-100);
+}
+
+.benefitCard {
+    width: 376px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-mintcream);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+}
+
+.cardNumberChild {
+    position: absolute;
+    top: 56px;
+    left: 54px;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen-300);
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
+
+.div1 {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 43px;
+    z-index: 1;
+}
+
+.cardNumber1 {
+    width: 54px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.reducedCosts {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--color-gray-300);
+}
+
+.readMore1 {
+    font-weight: 500;
+    color: var(--color-mediumseagreen-200);
+}
+
+.withWeekendUxContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-md-normal-size);
+    line-height: 26px;
+    color: var(--color-gray-100);
+}
+
+.benefitCard1 {
+    width: 376px;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--secondary-color-grey);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lg) var(--padding-lgi);
+    gap: var(--gap-xl);
+    max-width: 100%;
+}
+
+.cardNumberItem {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen-300);
+    width: 100%;
+    height: 100%;
+}
+
+.div2 {
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 44px;
+    z-index: 1;
+}
+
+.cardNumber2 {
+    width: 54px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.moreCustomization {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--color-gray-300);
+}
+
+.readMore2 {
+    font-weight: 500;
+    color: var(--color-mediumseagreen-200);
+}
+
+.ustLikeLearnersContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-md-normal-size);
+    line-height: 26px;
+    color: var(--color-gray-100);
+}
+
+.benefitCard2 {
+    width: 376px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-mintcream);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+}
+
+.cardNumberInner {
+    position: absolute;
+    top: 56px;
+    left: 54px;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen-300);
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
+
+.div3 {
+    position: absolute;
+    top: -1px;
+    left: -3px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 45px;
+    z-index: 1;
+}
+
+.cardNumber3 {
+    width: 54px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.affordablePricing {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--color-gray-300);
+}
+
+.weekend {
+    text-transform: capitalize;
+}
+
+.readMore3 {
+    font-weight: 500;
+    font-family: var(--text-md-normal);
+    color: var(--color-mediumseagreen-200);
+}
+
+.withWeekendUxContainer1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-md-normal-size);
+    line-height: 26px;
+    color: var(--color-gray-100);
+}
+
+.benefitCard3 {
+    width: 376px;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--secondary-color-grey);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lg) var(--padding-lgi);
+    gap: var(--gap-xl);
+    max-width: 100%;
+}
+
+.ellipseDiv {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen-300);
+    width: 100%;
+    height: 100%;
+}
+
+.div4 {
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 44px;
+    z-index: 1;
+}
+
+.cardNumber4 {
+    width: 54px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.learnerSatisfaction {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--color-gray-300);
+}
+
+.readMore4 {
+    font-weight: 500;
+    color: var(--color-mediumseagreen-200);
+}
+
+.ifYouReallyContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-md-normal-size);
+    line-height: 26px;
+    color: var(--color-gray-100);
+}
+
+.benefitCard4 {
+    width: 376px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-mintcream);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+}
+
+.cardNumberChild1 {
+    position: absolute;
+    top: 56px;
+    left: 54px;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen-300);
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
+
+.div5 {
+    position: absolute;
+    top: -1px;
+    left: -2px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 44px;
+    z-index: 1;
+}
+
+.cardNumber5 {
+    width: 54px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.multimediaMaterials {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--color-gray-300);
+}
+
+.readMore5 {
+    font-weight: 500;
+    color: var(--color-mediumseagreen-200);
+}
+
+.oneOfTheContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-md-normal-size);
+    line-height: 26px;
+    color: var(--color-gray-100);
+}
+
+.benefitCard5 {
+    width: 376px;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--secondary-color-grey);
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-lg) var(--padding-lgi);
+    gap: var(--gap-xl);
+}
+
+.benefitCard5,
+.benefitCardParent,
+.dataSplitter {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.benefitCardParent {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px 14px;
+    min-height: 492px;
+    text-align: left;
+    font-size: var(--font-size-15xl);
+}
+
+.dataSplitter {
+    width: 1160px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--gap-11xl);
+}
+
+.loopStructure {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-10xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-mediumseagreen-200);
+    font-family: var(--text-md-normal);
+}
+
+@media screen and (max-width: 1050px) {
+    .byJoiningWeekens {
+        font-size: var(--font-size-19xl);
+        line-height: 46px;
+    }
+
+    .div,
+    .div1,
+    .div2,
+    .div3,
+    .div4,
+    .div5 {
+        font-size: var(--font-size-8xl);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .ourBenefits {
+        font-size: var(--font-size-lgi);
+        line-height: 19px;
+    }
+
+    .byJoiningWeekens {
+        font-size: var(--font-size-10xl);
+        line-height: 35px;
+    }
+
+    .div {
+        font-size: var(--font-size-xl);
+    }
+
+    .standardization {
+        font-size: var(--font-size-lgi);
+        line-height: 19px;
+    }
+
+    .div1 {
+        font-size: var(--font-size-xl);
+    }
+
+    .reducedCosts {
+        font-size: var(--font-size-lgi);
+        line-height: 19px;
+    }
+
+    .div2 {
+        font-size: var(--font-size-xl);
+    }
+
+    .moreCustomization {
+        font-size: var(--font-size-lgi);
+        line-height: 19px;
+    }
+
+    .div3 {
+        font-size: var(--font-size-xl);
+    }
+
+    .affordablePricing {
+        font-size: var(--font-size-lgi);
+        line-height: 19px;
+    }
+
+    .div4 {
+        font-size: var(--font-size-xl);
+    }
+
+    .learnerSatisfaction {
+        font-size: var(--font-size-lgi);
+        line-height: 19px;
+    }
+
+    .div5 {
+        font-size: var(--font-size-xl);
+    }
+
+    .multimediaMaterials {
+        font-size: var(--font-size-lgi);
+        line-height: 19px;
+    }
+}

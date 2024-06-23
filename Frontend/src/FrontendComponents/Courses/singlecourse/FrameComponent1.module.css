@@ -1,0 +1,454 @@
+.frameChild {
+    height: 712px;
+    width: 1440px;
+    position: relative;
+    background: linear-gradient(162.85deg, #fa2b5c, #3c1147 99.48%);
+    display: none;
+    max-width: 100%;
+}
+
+.bg,
+.imageIcon {
+    position: absolute;
+    width: 320px;
+}
+
+.bg {
+    top: 28px;
+    left: 0;
+    border-radius: var(--br-xl) var(--br-xl) var(--br-xl) var(--br-77xl);
+    background-color: var(--color-brown);
+    height: 476px;
+}
+
+.imageIcon {
+    top: 0;
+    left: 32px;
+    border-radius: var(--br-xl) var(--br-53xl) var(--br-xl) var(--br-53xl);
+    height: 472px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.bgParent {
+    height: 504px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+}
+
+.image {
+    width: 352px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 352px;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.line {
+    width: 48px;
+    height: 2px;
+    position: relative;
+    border-radius: var(--br-12xs-4);
+    background-color: var(--secondary-yellow);
+}
+
+.lineWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-5xs);
+}
+
+.sussessStories {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 102px;
+    max-width: 100%;
+}
+
+.subHeading {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+}
+
+.excelentCourse,
+.joeIsThe {
+    margin: 0;
+}
+
+.excelentCourseJoeContainer {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 140%;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.heading01,
+.mainHeading {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.mainHeading {
+    flex-direction: row;
+    font-size: var(--heading-h2-size);
+    color: var(--neutral-light-white);
+    font-family: var(--heading-h2);
+}
+
+.heading01 {
+    overflow: hidden;
+    flex-direction: column;
+    gap: var(--gap-base);
+    z-index: 1;
+}
+
+.everythingIsExplained {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    color: var(--grey-shade-05);
+    z-index: 1;
+}
+
+.heading01Parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+    max-width: 100%;
+}
+
+.imageIcon1 {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(1.222);
+}
+
+.wrapperImage {
+    height: 72px;
+    width: 72px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jatinBaghel {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    z-index: 1;
+}
+
+.frostInteractive,
+.uiUxDesigner {
+    font-weight: 500;
+}
+
+.uiUxDesignerContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-medium-14-pt-size);
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    color: var(--grey-shade-05);
+    z-index: 1;
+}
+
+.frameDiv,
+.jatinBaghelParent,
+.wrapperImageParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.jatinBaghelParent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-9xs);
+}
+
+.frameDiv,
+.wrapperImageParent {
+    flex: 1;
+}
+
+.frameDiv {
+    flex-direction: column;
+    padding: var(--padding-xs) 0 0;
+    box-sizing: border-box;
+    min-width: 190px;
+}
+
+.wrapperImageParent {
+    flex-direction: row;
+    gap: var(--gap-xl);
+    min-width: 250px;
+    max-width: 100%;
+}
+
+.vectorIcon {
+    height: 72px;
+    width: 92px;
+    position: relative;
+    min-height: 72px;
+    z-index: 1;
+}
+
+.frameContainer,
+.frameGroup {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.frameContainer {
+    flex-direction: row;
+    gap: var(--gap-17xl);
+    color: var(--neutral-light-white);
+}
+
+.frameGroup {
+    flex-direction: column;
+    gap: var(--gap-30xl);
+}
+
+.frameItem {
+    width: 8px;
+    height: 8px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--neutral-light-pink);
+    z-index: 1;
+}
+
+.ellipseWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.ellipseDiv,
+.frameInner {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.ellipseDiv {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--neutral-light-pink);
+}
+
+.ellipseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.frameChild1 {
+    width: 8px;
+    height: 8px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--neutral-light-pink);
+    z-index: 1;
+}
+
+.ellipseFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+}
+
+.frameParent1 {
+    flex-direction: row;
+    gap: var(--gap-5xs);
+}
+
+.frameParent,
+.frameParent1,
+.frameWrapper1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frameWrapper1 {
+    flex-direction: row;
+    padding: 0 var(--padding-5xs);
+}
+
+.frameParent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-45xl);
+    max-width: 100%;
+}
+
+.frameWrapper,
+.homeInner,
+.rectangleParent {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.frameWrapper {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-base) 0 0;
+    min-width: 333px;
+}
+
+.homeInner,
+.rectangleParent {
+    flex-direction: row;
+}
+
+.rectangleParent {
+    flex: 1;
+    background: linear-gradient(162.85deg, #fa2b5c, #3c1147 99.48%);
+    justify-content: center;
+    padding: var(--padding-85xl) var(--padding-221xl) var(--padding-85xl) var(--padding-253xl);
+    gap: var(--gap-45xl);
+}
+
+.homeInner {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-85xl);
+    text-align: left;
+    font-size: var(--text-regular-16-pt-size);
+    color: var(--secondary-yellow);
+    font-family: var(--text-medium-14-pt);
+}
+
+@media screen and (max-width: 1225px) {
+    .image {
+        flex: 1;
+    }
+
+    .rectangleParent {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .image {
+        min-width: 100%;
+    }
+
+    .homeInner {
+        padding-bottom: var(--padding-49xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .subHeading {
+        flex-wrap: wrap;
+    }
+
+    .excelentCourseJoeContainer {
+        font-size: var(--font-size-7xl);
+        line-height: 36px;
+    }
+
+    .heading01Parent {
+        gap: var(--gap-base);
+    }
+
+    .frameContainer {
+        flex-wrap: wrap;
+        gap: var(--gap-lg);
+    }
+
+    .frameGroup {
+        gap: var(--gap-5xl);
+    }
+
+    .frameParent,
+    .rectangleParent {
+        gap: var(--gap-13xl);
+    }
+
+    .rectangleParent {
+        padding: var(--padding-49xl) var(--padding-101xl) var(--padding-49xl) var(--padding-117xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .excelentCourseJoeContainer {
+        font-size: var(--font-size-lgi);
+        line-height: 27px;
+    }
+
+    .wrapperImageParent {
+        flex-wrap: wrap;
+    }
+
+    .frameParent,
+    .rectangleParent {
+        gap: var(--gap-base);
+    }
+
+    .rectangleParent {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+
+    .homeInner {
+        padding-bottom: var(--padding-25xl);
+        box-sizing: border-box;
+    }
+}
